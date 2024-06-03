@@ -85,6 +85,8 @@ body {
   padding: 10px 13px;
   font-weight: 500;
   font-size: 15px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .nav-bar {
@@ -137,7 +139,7 @@ body {
 
 .details-card-item {
   width: 550px;
-  height: 450px;
+  height: 470px;
   margin-top: 15px;
 }
 
@@ -188,8 +190,26 @@ body {
   margin-right: 10px;
   font-weight: 500;
   font-size: 20px;
-  text-decoration: none;border: none;
+  text-decoration: none;
+  border: none;
   outline: none;
   border-radius: 8px;
   padding: 10px 13px;
 }
+
+.seller-name {
+  opacity: 0.5;
+  font-weight: 550;
+  margin-left: 10px;
+}
+
+.error {
+  text-align: center;
+  margin: 25px;
+  color: #ffffffd0;
+}
+
+.error button {
+  margin-top: 15px;
+}
+
